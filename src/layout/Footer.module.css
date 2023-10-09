@@ -1,0 +1,32 @@
+.footer {
+  background-color: #222;
+  height: 100px;
+  text-align: center;
+  padding: 1em;
+}
+
+.footer .social_list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social_list .itens {
+  margin: 10px 10px;
+  font-size: 1.5em;
+  transition: 0.9s;
+}
+
+.social_list .itens:hover {
+  cursor: pointer;
+  color: #ffbb33;
+  border-bottom: 1px solid #ffbb33;
+}
+
+.footer .copy_right span {
+  color: #ffbb33;
+  font-weight: bold;
+}
+.footer .copy_right {
+  color: aliceblue;
+}

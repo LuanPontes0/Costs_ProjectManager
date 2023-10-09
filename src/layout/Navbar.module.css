@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #222;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.navbar .link {
+  color: aliceblue;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.navbar .link:hover {
+  color: #ffbb33;
+  border-bottom: 1px solid #ffbb33;
+}
+
+.navbar .logo {
+  margin-top: 1em;
+}

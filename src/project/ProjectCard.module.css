@@ -1,0 +1,77 @@
+.card_container {
+  border: 1px solid #222;
+  border-radius: 5px;
+  width: 25%;
+  padding: 1.1em 0.9em;
+  margin: 0.4em;
+}
+
+.card_container h4 {
+  background-color: #222;
+  color: #ffbb33;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.card_container p span {
+  font-weight: bold;
+  color: #777575;
+}
+
+.card_container p {
+  color: #777575;
+  margin-bottom: 1.1em;
+}
+
+.card_container .categoria_bolinha {
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 1em;
+  width: 11px;
+  height: 11px;
+}
+
+.infra {
+  background-color: #ffaebc;
+}
+
+.desenvolvimento {
+  background-color: #a0e7e5;
+}
+.design {
+  background-color: #b4f8c8;
+}
+
+.planejamento {
+  background-color: #fbe7c6;
+}
+
+.botoes {
+  margin-top: 1.5em;
+}
+
+.botoes a,
+.botoes button {
+  padding: 0.5em;
+  background-color: white;
+  border: 1px solid #222;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #222;
+  margin-right: 1em;
+  padding: 0.5em 1em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.botoes svg {
+  margin-right: 0.5em;
+}
+
+.botoes a:hover,
+.botoes button:hover {
+  background-color: #222;
+  color: #ffbb33;
+}
